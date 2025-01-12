@@ -1,0 +1,68 @@
+.employee-portal {
+      padding: 20px;
+    }
+
+    .calendar-container {
+      margin-bottom: 20px;
+    }
+
+    .shift-info {
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .shift-info h2 {
+      margin-bottom: 10px;
+    }
+
+    .shift-info button {
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .assigned-shifts {
+      margin-top: 20px;
+    }
+
+    .assigned-shifts ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .assigned-shifts li {
+      padding: 10px;
+      border: 1px solid #ddd;
+      margin-bottom: 5px;
+      border-radius: 5px;
+    }
+
+    .react-calendar__tile--now {
+      background: #e6e6fa;
+    }
+
+    .assigned-shift {
+      background: #ffa500;
+    }
+
+    .registered-shift {
+      background: #008000;
+    }
+
+    .submit-status {
+      margin-left: 10px;
+      font-size: 0.8em;
+    }
+
+    .submit-status.success {
+      color: green;
+    }
+
+    .submit-status.error {
+      color: red;
+    }
