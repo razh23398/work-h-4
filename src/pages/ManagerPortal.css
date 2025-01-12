@@ -1,95 +1,100 @@
 .manager-portal {
-      padding: 20px;
-    }
+  padding: 20px;
+}
 
-    .calendar-container {
-      margin-bottom: 20px;
-    }
+.calendar-container {
+  margin-bottom: 20px;
+}
 
-    .modal {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .modal-content {
-      background-color: white;
-      padding: 20px;
-      border-radius: 5px;
-      width: 50%;
-      position: relative;
-    }
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+}
 
-    .close {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      font-size: 20px;
-      cursor: pointer;
-    }
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
 
-    .form-group {
-      margin-bottom: 15px;
-    }
+.form-group {
+  margin-bottom: 15px;
+}
 
-    .form-group label {
-      display: block;
-      margin-bottom: 5px;
-    }
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
 
-    .form-group input,
-    .form-group select {
-      width: 100%;
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
-    .employee-management {
-      margin-top: 20px;
-    }
+.employee-management {
+  margin-top: 20px;
+}
 
-    .employee-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 15px;
-    }
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
 
-    .employee-table th,
-    .employee-table td {
-      border: 1px solid #ddd;
-      padding: 8px;
-      text-align: left;
-    }
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
 
-    .add-employee-form {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
+.add-employee-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-    .add-employee-form input {
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
+.add-employee-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
-    .employee-list {
-      margin-top: 10px;
-    }
+.employee-list {
+  margin-top: 10px;
+}
 
-    .assigned-shift {
-      background: #ffa500;
-    }
+.assigned-shift {
+  background: #ffa500;
+}
 
-    .shift-item {
-      border: 1px solid #ddd;
-      padding: 10px;
-      margin-bottom: 10px;
-    }
+.shift-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.fully-staffed {
+  background: #008000 !important;
+  color: white;
+}
